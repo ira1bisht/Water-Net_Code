@@ -6,9 +6,9 @@
 clear all;
 close all;
 
-folder2 = '/K1/train/hazy_train';
+folder2 = 'C:\Users\HP\Desktop\K1\train\hazy_train';
 filepaths2 = dir(fullfile(folder2,'*.jpg'));
-folder3 = '/K1/train/clean_train';
+folder3 = 'C:\Users\HP\Desktop\K1\train\clean_train';
 filepaths3 = dir(fullfile(folder3,'*.jpg'));
 
 global count
